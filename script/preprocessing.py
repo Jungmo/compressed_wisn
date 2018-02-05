@@ -59,8 +59,6 @@ def drop_image_quality(image, k):
         y = 0
     return dropped_image
 
-
-# TODO:O(log n)
 def get_nearest_centroid(pixel, k):
     
     div = 256 >> k
